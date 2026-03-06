@@ -1,1 +1,19 @@
-{ "package": { "productName": "BC-SGM", "version": "0.1.0" }, "tauri": { "windows": [ { "title": "BC-SGM", "width": 1024, "height": 700 } ] } }
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "identifier": "com.bc.sgm",
+  "productName": "BC-SGM",
+  "version": "0.1.0",
+  "build": {
+    "frontendDist": "../../",
+    "devUrl": "index.html"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "BC-SGM",
+        "width": 1024,
+        "height": 700
+      }
+    ]
+  }
+}
