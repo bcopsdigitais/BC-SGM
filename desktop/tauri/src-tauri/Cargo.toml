@@ -1,1 +1,10 @@
-[package] name = "bc-sgm" version = "0.1.0" edition = "2021" [dependencies] tauri = { version = "1.5", features = ["api-all"] } [build-dependencies] tauri-build = "1.5"
+[package]
+name = "bc-sgm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tauri = { version = "1.5", features = ["api-all"] }
+
+[build-dependencies]
+tauri-build = "1.5"
