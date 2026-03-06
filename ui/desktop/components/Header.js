@@ -1,0 +1,1 @@
+export default function Header() { return "<header><h1>BC-SGM</h1></header>" }

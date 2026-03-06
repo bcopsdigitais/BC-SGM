@@ -1,0 +1,1 @@
+BC-SGM — Build de Teste Como executar: Extraia o arquivo Execute BC-SGM.exe Funcionalidades deste build: • Criar Service • Listar Services • Persistência local

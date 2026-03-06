@@ -1,0 +1,1 @@
+export function renderServices(services) { const list = document.getElementById("service-list") list.innerHTML = "" services.forEach(service => { const row = document.createElement("div") row.className = "service-row" row.innerText = ${service.cliente_nome} | ${service.prazo_dias} dias | ${service.status} | ${service.criado_em} list.appendChild(row) }) }

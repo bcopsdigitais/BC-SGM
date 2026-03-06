@@ -1,0 +1,1 @@
+export function ServiceCreated(cliente_nome, prazo_dias) { return { event_id: crypto.randomUUID(), service_id: crypto.randomUUID(), event_type: "ServiceCreated", payload: { cliente_nome, prazo_dias, status: "Em andamento" }, created_at: new Date().toISOString() } }

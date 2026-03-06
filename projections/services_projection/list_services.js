@@ -1,0 +1,1 @@
+export function listServices(db) { return db.prepare(SELECT * FROM services_projection).all() }

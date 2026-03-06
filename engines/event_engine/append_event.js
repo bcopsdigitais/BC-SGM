@@ -1,0 +1,1 @@
+export function appendEvent(db, event) { db.prepare( INSERT INTO events (event_id,service_id,event_type,payload,created_at) VALUES (?,?,?,?,?) ).run( event.event_id, event.service_id, event.event_type, JSON.stringify(event.payload), event.created_at ) }

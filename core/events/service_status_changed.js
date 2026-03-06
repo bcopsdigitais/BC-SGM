@@ -1,0 +1,1 @@
+export function ServiceStatusChanged(service_id, status) { return { event_id: crypto.randomUUID(), service_id, event_type: "ServiceStatusChanged", payload: { status }, created_at: new Date().toISOString() } }

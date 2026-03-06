@@ -1,0 +1,1 @@
+import { renderServices } from "../components/ServiceList.js" export function renderDashboard(services) { renderServices(services) }

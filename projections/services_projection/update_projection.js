@@ -1,0 +1,1 @@
+export function updateProjection(db, service) { db.prepare( INSERT OR REPLACE INTO services_projection (service_id,cliente_nome,prazo_dias,status,criado_em,updated_at) VALUES (?,?,?,?,?,?) ).run( service.id, service.cliente_nome, service.prazo_dias, service.status, service.criado_em, new Date().toISOString() ) }

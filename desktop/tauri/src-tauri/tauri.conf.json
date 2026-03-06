@@ -1,0 +1,1 @@
+{ "package": { "productName": "BC-SGM", "version": "0.1.0" }, "tauri": { "windows": [ { "title": "BC-SGM", "width": 1024, "height": 700 } ] } }

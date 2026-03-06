@@ -1,0 +1,1 @@
+import { applyEvent } from "./apply_event.js" export function rebuildService(events) { let service = {} for (const event of events) { service = applyEvent(service, event) } return service }

@@ -1,0 +1,1 @@
+CREATE TABLE events ( event_id TEXT PRIMARY KEY, service_id TEXT, event_type TEXT, payload TEXT, created_at TEXT ); CREATE TABLE services_projection ( service_id TEXT PRIMARY KEY, cliente_nome TEXT, prazo_dias INTEGER, status TEXT, criado_em TEXT, updated_at TEXT );

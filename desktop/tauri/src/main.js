@@ -1,0 +1,1 @@
+import { ServiceCreated } from "../../../core/events/service_created.js" window.createService = function () { const cliente_nome = document.getElementById("cliente_nome").value const prazo_dias = parseInt(document.getElementById("prazo_dias").value) const event = ServiceCreated(cliente_nome, prazo_dias) console.log("ServiceCreated event:", event) }

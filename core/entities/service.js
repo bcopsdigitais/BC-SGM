@@ -1,0 +1,1 @@
+export class Service { constructor(id, cliente_nome, prazo_dias, status, criado_em) { this.id = id this.cliente_nome = cliente_nome this.prazo_dias = prazo_dias this.status = status this.criado_em = criado_em } }
